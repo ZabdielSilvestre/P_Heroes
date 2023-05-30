@@ -1,0 +1,145 @@
+.descuentos {
+    background-color: #1CD1B0;
+}
+
+.heroes {
+    background-color: #00669F;
+    font-size: 40px;
+    padding: 2vh;
+    box-sizing: border-box;
+    position: sticky;
+  top: 10px;
+  z-index: 3;
+}
+
+.contenedor-padre {
+    margin: 10vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+
+.caja1 {
+    width: 600px;
+    height: 350px;
+}
+
+.caja2 {
+    width: 600px;
+    height: 350px;
+}
+
+.caja3 {
+    width: 600px;
+    height: 350px;
+}
+
+.caja11 {
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+    left: 220px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+
+.caja22 {
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+    left: 220px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+
+.caja33 {
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+    left: 220px;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+
+.caja111 {
+    position: relative;
+    z-index: 2;
+    bottom: 450px;
+    right: 150px;
+    width: 50px;
+    height: 50px;
+}
+
+.caja222 {
+    position: relative;
+    z-index: 2;
+    bottom: 450px;
+    right: 150px;
+    width: 50px;
+    height: 50px;
+}
+
+.caja333 {
+    position: relative;
+    z-index: 2;
+    bottom: 450px;
+    right: 150px;
+    width: 50px;
+    height: 50px;
+}
+
+.contenedor-hijo1 {
+
+    background-color: #F3F3F3;
+    position: relative;
+    width: 600px;
+    height: 800px;
+
+}
+
+.contenedor-hijo2 {
+    position: relative;
+    background-color: #F3F3F3;
+    width: 600px;
+    height: 800px;
+
+}
+
+.contenedor-hijo3 {
+    position: relative;
+    background-color: #F3F3F3;
+    width: 600px;
+    height: 800px;
+
+}
+#nombres{
+    margin-top: -10vh;
+    text-align: center;
+}
+#info{
+    font-size: 30px;
+    padding: 2vh;
+    text-align: justify;
+}
+#vermas{
+   
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -20px;
+    padding: 20px 50px 20px 50px;
+    color: #F3F3F3;
+    background-color: #00669F;
+}
+footer {
+    font-size: 20px;
+    color: #F3F3F3;
+    background-color: #00669F;
+    padding: 20px 0 20px 15px;
+}
